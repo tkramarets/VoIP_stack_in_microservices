@@ -11,6 +11,6 @@ RUN apk add --no-cache \
         asterisk-cdr-mysql \
         asterisk-sample-config \
         asterisk-sounds-en \
-        asterisk-sounds-moh.
+        asterisk-sounds-moh
 
 CMD ["/usr/sbin/asterisk", "-c", "-ddd", "-f", "-vvv"]
