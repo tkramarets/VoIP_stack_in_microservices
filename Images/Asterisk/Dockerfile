@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:latest
 MAINTAINER Taras Kramarets <tkramarets@gmail.com>
 
 RUN apk add --no-cache \
